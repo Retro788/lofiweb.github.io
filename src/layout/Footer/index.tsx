@@ -17,11 +17,11 @@ const Footer = () => {
     <div className='footer'>
       <div className='song-name'>
         {moodMode === 'chill' ? (
-          <span>Song name: {chill[currentSongIndex].name}</span>
+          <span>Estas reproduciendo: {chill[currentSongIndex].name}</span>
         ) : moodMode === 'jazzy' ? (
-          <span>Song name: {jazzy[currentSongIndex].name}</span>
+          <span>Estas reproduciendo: {jazzy[currentSongIndex].name}</span>
         ) : (
-          <span>Song name: {sleep[currentSongIndex].name}</span>
+          <span>Estas reproduciendo: {sleep[currentSongIndex].name}</span>
         )}
       </div>
       <div className='controller'>
@@ -46,7 +46,7 @@ const Footer = () => {
         )}
       </div>
       <div className='author'>
-        Made by:
+        Hecho por:
         <a
           href={CONSTANTS.AUTHOR_GITHUB_LINK}
           target='_blank'

@@ -36,15 +36,15 @@ const CountDownTimer = ({
               className='buttonTimer'
               onClick={() => setTimerHandler(0, 0, 0)}
             >
-              Cancel
+              Cancelar
             </button>
             {isRunning ? (
               <button className='buttonTimer' onClick={pause}>
-                Pause
+                Pausa
               </button>
             ) : (
               <button className='buttonTimer' onClick={resume}>
-                Resume
+                Reinicio
               </button>
             )}
           </div>
@@ -60,7 +60,7 @@ const CountDownTimer = ({
               max={24}
               min={0}
             />
-            <span>hour</span>
+            <span>hora</span>
             <input
               className='number-input'
               type='number'
@@ -78,11 +78,11 @@ const CountDownTimer = ({
               max={60}
               min={0}
             />
-            <span>sec</span>
+            <span>segundos</span>
           </div>
 
           <button className='buttonTimer setup' onClick={setTimerBtnHandler}>
-            Set Timer
+            Selecciona el temporizador
           </button>
         </div>
       )}

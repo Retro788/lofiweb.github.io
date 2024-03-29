@@ -161,10 +161,10 @@ const ModifierBoard = ({
                   <i className='fas fa-volume-up fa-lg'></i>
                 </Stack>
               </div>
-              <h5>Background Noise</h5>
+              <h5>Ruido de fondo</h5>
               <div className='backgroundNoise'>
                 <div className='noise-option'>
-                  <p>City traffic</p>
+                  <p>Trafico</p>
                   <ReactAudioPlayer
                     preload='auto'
                     autoPlay
@@ -179,7 +179,7 @@ const ModifierBoard = ({
                   />
                 </div>
                 <div className='noise-option'>
-                  <p>City rain</p>
+                  <p>Lluvia en la ciudad</p>
                   <ReactAudioPlayer
                     preload='auto'
                     autoPlay
@@ -194,7 +194,7 @@ const ModifierBoard = ({
                   />
                 </div>
                 <div className='noise-option'>
-                  <p>Fireplace</p>
+                  <p>Fogata</p>
                   <ReactAudioPlayer
                     preload='auto'
                     autoPlay
@@ -209,7 +209,7 @@ const ModifierBoard = ({
                   />
                 </div>
                 <div className='noise-option'>
-                  <p>Snow</p>
+                  <p>Nieve</p>
                   <ReactAudioPlayer
                     preload='auto'
                     autoPlay
@@ -224,7 +224,7 @@ const ModifierBoard = ({
                   />
                 </div>
                 <div className='noise-option'>
-                  <p>Summer Storm</p>
+                  <p>lluvia de verano</p>
                   <ReactAudioPlayer
                     preload='auto'
                     autoPlay
@@ -239,7 +239,7 @@ const ModifierBoard = ({
                   />
                 </div>
                 <div className='noise-option'>
-                  <p>Fan</p>
+                  <p>Ventilador</p>
                   <ReactAudioPlayer
                     preload='auto'
                     autoPlay
@@ -254,7 +254,7 @@ const ModifierBoard = ({
                   />
                 </div>
                 <div className='noise-option'>
-                  <p>Forest Night</p>
+                  <p>Bosque de noche</p>
                   <ReactAudioPlayer
                     preload='auto'
                     autoPlay
@@ -269,7 +269,7 @@ const ModifierBoard = ({
                   />
                 </div>
                 <div className='noise-option'>
-                  <p>Wave</p>
+                  <p>Olas</p>
                   <ReactAudioPlayer
                     preload='auto'
                     autoPlay
@@ -284,7 +284,7 @@ const ModifierBoard = ({
                   />
                 </div>
                 <div className='noise-option'>
-                  <p>Wind</p>
+                  <p>Viento</p>
                   <ReactAudioPlayer
                     preload='auto'
                     autoPlay
@@ -299,7 +299,7 @@ const ModifierBoard = ({
                   />
                 </div>
                 <div className='noise-option'>
-                  <p>People</p>
+                  <p>Personas</p>
                   <ReactAudioPlayer
                     preload='auto'
                     autoPlay
@@ -314,7 +314,7 @@ const ModifierBoard = ({
                   />
                 </div>
                 <div className='noise-option'>
-                  <p>River</p>
+                  <p>Rio</p>
                   <ReactAudioPlayer
                     preload='auto'
                     autoPlay
@@ -329,7 +329,7 @@ const ModifierBoard = ({
                   />
                 </div>
                 <div className='noise-option'>
-                  <p>Rain Forest</p>
+                  <p>Bosque</p>
                   <ReactAudioPlayer
                     preload='auto'
                     autoPlay
@@ -357,7 +357,7 @@ const ModifierBoard = ({
         </div>
         {openFocus && (
           <div className='modifierBox'>
-            <h4>Focus Mode</h4>
+            <h4>Modo en concentracion</h4>
             <CountDownTimer
               seconds={seconds}
               minutes={minutes}
@@ -370,7 +370,7 @@ const ModifierBoard = ({
               setTimerStart={setTimerStart}
               timerStart={timerStart}
             />
-            <h4>To do list</h4>
+            <h4>Lista de tareas</h4>
             <TodoList />
           </div>
         )}

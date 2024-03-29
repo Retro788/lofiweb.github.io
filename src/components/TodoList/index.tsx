@@ -40,12 +40,12 @@ const TodoList = () => {
                 type='text'
                 value={list}
                 onChange={(e) => setList(e.target.value)}
-                placeholder='Enter list'
+                placeholder='Ingresa a la lista'
                 required
               />
             </Col>
             <Col xs={3} sm={4}>
-              <Button type='submit'>Add</Button>
+              <Button type='submit'>Añadir</Button>
             </Col>
           </Row>
         </Form.Group>
@@ -53,7 +53,7 @@ const TodoList = () => {
       {todoList.length > 0 ? (
         <>
           {repeat && (
-            <Message variant='danger'>This note is already added</Message>
+            <Message variant='danger'>Esta nota ya esta añadida</Message>
           )}
           <ListGroup className='todolistList'>
             {todoList.map((listItem: any) => (
@@ -93,7 +93,7 @@ const TodoList = () => {
       ) : (
         <ListGroup>
           <ListGroup.Item className='text-center'>
-            Nothing to do yet
+            Nada por hacer aun.
           </ListGroup.Item>
         </ListGroup>
       )}
